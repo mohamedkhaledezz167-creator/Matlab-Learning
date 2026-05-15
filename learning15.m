@@ -1,0 +1,10 @@
+clear;
+clc;
+syms t x;
+x=input('enter function in time');
+ezplot(t,x);
+grid on;
+hold on;
+ezplot(t,x-x);
+hold on;
+ezplot(t-t,x);

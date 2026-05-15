@@ -1,0 +1,10 @@
+q=[1:1:4];
+M=[q;-q;q;-q]
+%a
+fliplr(M)
+%b
+flipud(M)
+%c
+temp=M(:,2);
+M(:,2)=M(:,3);
+M(:,3)=temp;
